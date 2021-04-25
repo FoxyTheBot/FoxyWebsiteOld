@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500&display=swap);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.infos {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.infos .title-table {
+    margin-bottom: 5%;
+    text-align: center;
+    color: #fff;
+    font-family: Montserrat;
+}
+
+.infos .cards-cmd {
+    display: block;
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.infos .cards-cmd .category {
+    background-color: rgb(0, 204, 255);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.infos .cards-cmd .category .title {
+    font-family: Montserrat;
+    padding: 7px 13px 7px 13px;
+    color: #fff;
+}
+
+.infos .cards-cmd .commands {
+    padding: 5px;
+    background-color: #15002c;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.infos .cards-cmd .commands .cmd {
+    color: #fff;
+    font-family: Montserrat;
+    padding: 7px 9px 7px 9px;
+    font-size: 90%;
+    line-height: 1.7;
+}
+
+.infos .cards-cmd .commands .cmd code {
+    padding: 3px 4px 3px 4px;
+    margin-right: 5px;
+    font-family: Montserrat;
+    font-size: 100%;
+    border-radius: 3px;
+    background-color: #301f2b;
+}
+
+@media only screen and (max-width: 350px) {
+    .infos .cards-cmd {
+        width: 100%;
+    }
+
+    .infos .cards-cmd .category {
+        border-radius: 0;
+    }
+
+    .infos .cards-cmd .commands {
+        border-radius: 0;
+    }
+}
