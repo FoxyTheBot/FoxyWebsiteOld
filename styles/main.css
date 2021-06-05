@@ -38,7 +38,7 @@ main a {
 
 main a button {
     color: #fff;
-    background-color: #7289da;
+    background-color: #5865f2;
     font-family: Montserrat;
     font-size: 20px;
     cursor: pointer;
@@ -54,7 +54,7 @@ main a button {
 main a button:hover {
     background-color: #25aff3;
     transition-duration: 0.5s;
-    animation: CardAnimatio 0.5s ease-in-out infinite;
+    animation: CardAnimatio 0.5s ease-in infinite;
 
 
 }
