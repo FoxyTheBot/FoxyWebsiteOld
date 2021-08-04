@@ -23,10 +23,11 @@ header {
   border-radius: 50%;
   width: 10%;
   min-width: 50px;
-
+  animation: float 6s ease-in-out infinite;
 }
 
 .nav__links {
+    
   list-style: none;
   display: flex;
 }
@@ -41,6 +42,7 @@ header {
 }
 
 .nav__links li {
+    animation: float 6s ease-in-out infinite;
   padding: 0px 20px;
 }
 
@@ -53,6 +55,7 @@ header {
 }
 
 .cta {
+    animation: float 6s ease-in-out infinite;
   margin-left: 20px;
   padding: 9px 25px;
   background-color: rgb(46, 144, 255);
