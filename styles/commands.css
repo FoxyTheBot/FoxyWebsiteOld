@@ -1,0 +1,42 @@
+body {
+    background-image: url("/assets/DiscordBackground.png");
+}
+
+main {
+    padding-left: 28%;
+    padding-right: 30%;
+    margin-top: 4%;
+    margin-bottom: 20%;
+    transition-duration: 0.5s;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-family: Montserrat;
+
+}
+
+.inline-emoji {
+    height: 1.5em;
+    position: relative;
+    top: .3em;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+tr {
+    color: white;
+    font-family: Montserrat;
+}
+.commands_bottom__1ADQb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

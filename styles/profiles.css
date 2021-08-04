@@ -28,7 +28,6 @@
     margin-left: 3%;
     margin-right: 3%;
     text-align: center;
-    text-transform: uppercase;
     background-image: url('../assets/DiscordHook.png');
     background-size: 4cm;
     max-width: 275px;
@@ -69,7 +68,6 @@
     margin-right: 5%;
     font-size: 200%;
 }
-
 
 @media screen and (max-width: 770px) {
     .cards-equipe {

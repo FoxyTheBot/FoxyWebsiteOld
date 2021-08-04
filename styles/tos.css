@@ -6,70 +6,9 @@
 }
 
 body {
-    background-color: #2c2f33;
+    background-image: url("../assets/DiscordBackground.png");
 }
 
-
-header {
-    background-color: #7289da;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
-    transition-duration: 0.5s;
-    top: 0;
-    left: 0;
-    right: 0;
-    position: fixed;
-}
-
-header a {
-    display: flex;
-    margin-right: auto;
-}
-
-header a img {
-    width: 60px;
-    border-radius: 60%;
-    display: flex;
-    margin-right: auto;
-}
-header b img {
-    width: 60px;
-    display: flex;
-    margin-right: auto;
-
-}
-header ul {
-    display: flex;
-    list-style: none;
-    text-align: right;
-}
-
-header ul li {
-    display: flex;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-header ul li a {
-    color: #fff;
-    font-family: Montserrat;
-    text-decoration: none;
-    background-color: steelblue;
-    padding: 7px 10px 7px 10px;
-    border-radius: 18px;
-}
-
-header lu il a {
-    color: #fff;
-    font-family: Montserrat;
-    text-decoration: none;
-    background-color: steelblue;
-    padding: 7px 10px 7px 10px;
-    border-radius: 18px;
-}
 
 main {
     padding-left: 10%;
@@ -79,7 +18,10 @@ main {
     transition-duration: 0.5s;
 
 }
-
+a {
+    text-decoration: none;
+    color: rgb(54, 54, 252);
+}
 main h1 {
     color: #fff;
     font-size: 50px;
