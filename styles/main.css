@@ -6,7 +6,7 @@
 }
 
 body {
-        background-image: url('../assets/DiscordBackground.png');
+    background-image: url("/assets/images/DiscordBackground.png");
 }
 
 main {
@@ -68,10 +68,6 @@ main a button:hover {
     opacity: inherit;
 
 }    
-
-#owo:hover {
-    color: black;
-}
 
 .features .title {
     font-family: Montserrat;
