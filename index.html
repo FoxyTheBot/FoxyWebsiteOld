@@ -11,16 +11,15 @@
     <link rel="stylesheet" href="styles/header.css" type="text/css">
     <link rel="stylesheet" href="styles/main.css" type="text/css">
     <script src="js/autoPlay.js"></script>
-    <link rel="icon" href="./assets/Foxy.png">
+    <link rel="icon" href="./assets/images/Foxy.png">
     <title>Foxy | Home</title>
 </head>
 
 <body>
     <header>
-        <a class="logo" href="/"><img src="assets/Foxy.png" alt="logo"></a>
+        <a class="logo" href="/"><img src="assets/images/Foxy.png" alt="logo"></a>
         <nav id="nav">
             <ul class="nav__links">
-                <li><a id="owo" href="/spin.html">Enable</a></li>
                 <li> <a href="https://github.com/BotFoxy/Foxy">GitHub</a></li>
                 <li><a href="/tos.html">Termos</a></li>
                 <li><a href="https://discord.gg/gK42WTs">Suporte</a></li>
@@ -29,16 +28,16 @@
             </ul>
         </nav>
         <a class="cta"
-        href="https://discord.com/oauth2/authorize?client_id=737044809650274325&scope=bot&permissions=269872255">Adicionar</a>
-    <p class="menu cta" onclick="playAudio('./assets/ricorola.mp3')">Menu</p>
-</header>
-<div id="mobile__menu" class="overlay">
-    <a class="close">&times;</a>
-    <div class="overlay__content">
-        <a href="/team">Equipe</a>
-        <a href="/tos.html">Termos de uso</a>
-    </div>
+            href="https://discord.com/oauth2/authorize?client_id=737044809650274325&scope=bot&permissions=269872255">Adicionar</a>
+        <p class="menu cta" onclick="playAudio('./assets/audios/Never Gonna Give You Up.mp3')">Menu</p>
     </header>
+    <div id="mobile__menu" class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay__content">
+            <a href="/team">Equipe</a>
+            <a href="/tos.html">Termos de uso</a>
+        </div>
+        </header>
     </div>
     <main>
         <h1>Foxy</h1>
@@ -54,7 +53,7 @@
     <div class="features">
         <h1 class="title">Funcionalidades</h1>
         <p class="description">Algumas funcionalidades e recursos que a Foxy possuí!</p>
-        <div class="card-row">
+        <div class="card-row" onclick="playAudio('assets/audios/Bonnie\'s Lullaby.mp3')">
             <div class="card">
                 <p>Sistema de perfil totalmente customizável, Foxy possui sistema de perfil com vários backgrounds
                     incluindo sad cats, wallpapers e fan-arts dela</p>
@@ -67,10 +66,10 @@
                 <p>Sistema de socialização, com o perfil, você tem a opção de ter reps, comprar reps, vender reps, etc
                 </p>
             </div>
-            <div class="card">
+            <!-- <div class="card">
                 <p>Sistemas de bloqueio de convites, Foxy te ajuda a evitar spams de convites em seu servidor! Podendo
                     enviar convites em um canal específico!</p>
-            </div>
+            </div> -->
             <div class="card">
                 <p>Você pode sugerir alguma coisa para a Foxy sem entrar no servidor de suporte, com f!sugerir ou
                     reportar algum bug usando f!report, não use esses comandos para "kk zoeiras" se não você pode ser
