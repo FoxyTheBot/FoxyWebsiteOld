@@ -23,7 +23,18 @@ header {
   border-radius: 50%;
   width: 10%;
   min-width: 50px;
+  margin-left: -7.4em;
+}
 
+.alert {
+  animation: blinker 1s linear infinite;
+  display: flex;
+}
+
+.alert img {
+  width: 10%;
+  min-width: 50px;
+  text-align: left;
 }
 
 .nav__links {
@@ -127,5 +138,12 @@ header {
   }
   .menu {
     display: initial;
+  }
+}
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
   }
 }
