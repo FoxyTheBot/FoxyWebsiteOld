@@ -18,27 +18,6 @@ main {
     transition-duration: 0.5s;
 
 }
-main a button {
-    color: #fff;
-    background-color: #c02521;
-    font-family: Montserrat;
-    font-size: 20px;
-    cursor: pointer;
-    padding: 10px 12px 10px 12px;
-    border-radius: 5px;
-    border: none;
-    margin: 20px 5px 10px 5px;
-    animation: float 6s ease-in-out infinite;
-    transition-duration: 0.5s;
-}
-
-
-main a button:hover {
-    background-color: #25aff3;
-    transition-duration: 0.5s;
-
-}
-
 a {
     text-decoration: none;
     color: rgb(54, 54, 252);
